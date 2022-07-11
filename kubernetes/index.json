@@ -1,0 +1,27 @@
+{
+    "title": "Kubernetes class",
+    "description": "Uses a two node Kubernetes cluster and performs an installation an upgrade of Grafana",
+    "details": {
+      "intro": {
+        "text": "intro.md"
+      },
+      "steps": [
+        {
+          "title": "Install Grafana",
+          "text": "step1/text.md",
+          "verify": "step1/verify.sh"
+        },
+        {
+          "title": "Update Grafana",
+          "text": "step2/text.md",
+          "verify": "step2/verify.sh"
+        }
+      ],
+      "finish": {
+        "text": "finish.md"
+      }
+    },
+    "backend": {
+      "imageid": "kubernetes-kubeadm-2nodes"
+    }
+  }
